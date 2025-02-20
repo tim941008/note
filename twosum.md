@@ -48,7 +48,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 
 ##  🕛時間複雜度分析
 - **暴力解法：O(n²)**（雙迴圈遍歷）
-- **我會努力研究 hash table的
+- **我會努力研究 hash table的**
 ---
 
 
