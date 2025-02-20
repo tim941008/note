@@ -1,0 +1,62 @@
+# 解題紀錄
+
+## 題目：a001. 哈囉
+
+## 📙 題目描述
+請寫一個程式，可以讀入指定的字串，並且輸出指定的字串。
+
+比如：輸入字串 "world", 則請輸出 "hello, world"
+
+**範例：**
+```txt
+輸入說明
+輸入總共一行，內含一組文字
+
+輸出說明
+輸出題目指定的文字。
+```
+
+```txt
+範例輸入 #1   範例輸出 #1 
+world         hello, world
+```
+
+```txt
+範例輸入 #2  範例輸出 #2
+C++          hello, C++
+```
+```txt
+範例輸入 #3  範例輸出 #3
+Taiwan       hello, Taiwan
+```
+
+---
+
+## ✒️ 解題思路
+1. **優化io**
+   - `puchar` 以及 `getchar` 都是較能加速io的方法
+   - 將`hello, `存起來 ，使用迴圈遍歷陣列輸出
+   - 不斷輸出到EOF
+---
+
+## 💻 C 語言解法
+
+```c
+#include <stdio.h>
+int main(void) {
+    char c;
+    char s[8] = {"hello, "};
+    for(int i = 0;i < 7;i++){
+        putchar(s[i]);
+    }
+    while(( c = getchar() )!= EOF)
+        putchar(c);
+    return 0;
+}
+```
+
+---
+
+##  🕛時間複雜度分析
+- O(n)**（迴圈遍歷）
+---
