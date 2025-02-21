@@ -1,6 +1,5 @@
 # 陣列 (Array) 
 ---
-![陣列示意圖](/Data_Structure/resource/array.png))
 
 ## 1. 陣列的定義
 
