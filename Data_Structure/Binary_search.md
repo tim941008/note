@@ -44,8 +44,9 @@ int binary_search(int* arr, int target, int left, int right) {
         return binary_search(arr, target, left, mid - 1);
 }
 ```
-## 時間與空間複雜度分析
 ---
+## 時間與空間複雜度分析
+
 ### **時間複雜度**
 二元搜尋法每次查找都將搜尋範圍縮小為原來的一半，因此其時間複雜度為 **O(log n)**。  
 - 假設初始陣列長度為 `n`，每次搜尋後，範圍變為 `n/2`、`n/4`、`n/8` .... 
