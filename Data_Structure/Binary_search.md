@@ -15,7 +15,7 @@
    - 若 `arr[mid] > target`，更新 `right = mid - 1`。
 4. 重複以上步驟直到找到 `target` 或 `left > right`（搜尋失敗）。
 
-## 迭代版本
+## 迭代版本(c語言)
 ```c
 int binary_search(int* arr, int target, int left, int right) {
     while (left <= right) {
@@ -30,7 +30,7 @@ int binary_search(int* arr, int target, int left, int right) {
     return -1;
 }
 ```
-## 遞迴版本
+## 遞迴版本(c語言)
 ```c
 int binary_search(int* arr, int target, int left, int right) {
     if (left > right) 
