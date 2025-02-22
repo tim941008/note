@@ -9,11 +9,11 @@
 
 ## 2. 陣列的特性
 
-    - **優點**
-        - **索引 (Index)**：陣列中的每個元素都有一個唯一的索引，從 **0** 開始。
-        - **快速存取**：可以透過索引直接存取陣列中的元素，時間複雜度為 **O(1)**。
-    - **缺點**  
-        - **記憶體浪費**： 宣告大小必須先決定好
+- **優點**
+  - **索引 (Index)**：陣列中的每個元素都有一個唯一的索引，從 **0** 開始。
+  - **快速存取**：可以透過索引直接存取陣列中的元素，時間複雜度為 **O(1)**。
+- **缺點**  
+  - **記憶體浪費**： 宣告大小必須先決定好
 
 ## 3. 陣列的使用方式 (C 語言範例)
 
@@ -65,14 +65,14 @@ int main() {
 **以`r`為列數，`c` 為行數，`d`為元素大小**
 
 - **以列為主(Row - major)**
-    $$
-    \cdot{Loc}(a_{ij}) = \text{起始位置} + c \cdot(i - 1) \cdot d +  (j - 1) \cdot d
-    $$
+    
+    $\cdot{Loc}(a_{ij}) = \text{起始位置} + c \cdot(i - 1) \cdot d +  (j - 1) \cdot d$
+    
 
 - **以行為主(column - major)**
-    $$
-    \cdot{Loc}(a_{ij}) = \text{起始位置} + (i - 1) \cdot d + r \cdot (j - 1) \cdot d
-    $$
+    
+    $\cdot{Loc}(a_{ij}) = \text{起始位置} + (i - 1) \cdot d + r \cdot (j - 1) \cdot d$
+    
 
 以下是C語言以Row - major 實作
 ```c
@@ -165,14 +165,13 @@ $S$為單位大小
         則:
 
         $\text{位址} = \text{起始位置} +
-        \left( (u_1 - 1) \times d_2 d_3 \cdots d_n + u_2 \times d_3 d_4  
-        \cdots d_n + \dots + (u_{n-1} -1)\times d_n + u_n - 1 \right) \times S$
+        \left( (u_1 - 1) \times d_2 d_3 \cdots d_n + u_2 \times d_3 d_4  \cdots d_n + \dots + (u_{n-1} -1)\times d_n + u_n - 1 \right) \times S$
 
   - **Column-major**
     - 當陣列宣告為
         $a[d_1][d_2][d_3] \dots [d_n]$
     則:
-        $\text{位址} = \text{起始位置} + \left( (u_n-1) \times d_2 d_3 \cdots d_n + (u_{n-1}-1) \times d_3 d_4   \cdots d_n + \dots + (u_2-1) \times d_n + (u_1-1) \right) \times S$
+        $\text{位址} = \text{起始位置} + \left( (u_n-1) \times d_2 d_3 \cdots d_n + (u_{n-1}-1) \times d_3 d_4\cdots d_n + \dots + (u_2-1) \times d_n + (u_1-1) \right) \times S$
 
     #### Row and Column 想法
 
