@@ -57,7 +57,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 ```
 
 ---
-
 ##  🕛時間複雜度分析
 - **O(n)**（迴圈遍歷）
     - n = **max(len(l1), len(l2))**
