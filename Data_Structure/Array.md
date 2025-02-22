@@ -89,7 +89,7 @@ int main() {
     printf("arr[1][0]以row - major 位置%d\n", &arr[1][0]);//加了3的位置
 }
 ```
-![圖片](resource/array.png)
+![圖片](/resource/array.png)
 
 ## 5.1 二維陣列實作
 
