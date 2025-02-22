@@ -4,7 +4,7 @@
 
 ## 📙 題目描述
 
-Given a string `s`, find the length of the longest substring without duplicate characters.
+Given a string `s`, find the length of the longest substring without duplicate characters.  
 給定一個字串，找出最長s的長度 子字串 沒有重複的字元。
 **範例1：**
 
