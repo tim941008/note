@@ -6,7 +6,7 @@
 
 給定兩個 **non-empty** ``Linked list``
 將每個節點相加，如有進位則加到下一個節點。回傳串列的指標
-![alt text](/resource/addtwonumber1.jpg)
+![圖片](/resource/addtwonumber1.jpg)
 
 **範例1：**
 
