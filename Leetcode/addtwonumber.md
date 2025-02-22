@@ -5,7 +5,7 @@
 ## 📙 題目描述
 給定兩個 **non-empty** ``Linked list``
 將每個節點相加，如有進位則加到下一個節點。回傳串列的指標 
-![alt text](/note/resource/addtwonumber1.jpg)
+![alt text](/resource/addtwonumber1.jpg)
 **範例1：**
 ```txt
 輸入： l1 = [2,4,3], l2 = [5,6,4]
@@ -59,6 +59,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 ---
 
 ##  🕛時間複雜度分析
-- **暴力解法：O(n)**（迴圈遍歷）
+- **O(n)**（迴圈遍歷）
     - n = **max(len(l1), len(l2))**
 ---
