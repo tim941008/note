@@ -14,15 +14,17 @@
 
 a. 計算銀針中的電子總數：
 
-- $1 mol = 6.02 \times 10^{23} $ 個原子
+-  $1 mol = 6.02 \times 10^{23}$  個原子
 - 一個原子有47個電子
-   $ {個數} = \frac{10.0 g}{107.87 g/mol} \times (6.022 \times 10^{23}) = 5.59 \times 10^{22} \times 47 = (5.59 \times 10^{22}) \times 47 = 2.63 \times 10^{24} {個電子}$
+   ${個數} = \frac{10.0 g}{107.87 g/mol} \times (6.022 \times 10^{23}) = 5.59 \times 10^{22} \times 47 = (5.59 \times 10^{22}) \times 47 = 2.63 \times 10^{24} {個電子}$
 
 b. 計算新增電子數：
 
    $n = \frac{1.00 \times 10^{-3} C}{1.6 \times 10^{-19} C} = 6.25 \times 10^{15}$
    $\frac{6.25 \times 10^{15}}{2.63 \times 10^{24}} \times 10^9 = 2.38$
-題目要求是以每 $10^9$ 個電子所新增的所以要乘上 $10^9$ 這題看了好久也是不懂😥
+題目要求是以每 $10^9$ 個電子所新增的所以要乘上 $10^9$ 
+這題看了好久也是不懂😥
+
 **答案：每 $10^9$ 個原電子新增 2.38 個電子。**
 
 ---
@@ -33,7 +35,7 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
 
 ### 2.中文翻譯
 
-兩個質子在原子核中通常相距 \(2.00 \times 10^{-15}\) m。求它們之間的電力大小。
+兩個質子在原子核中通常相距 $2.00 \times 10^{-15}$ m。求它們之間的電力大小。
 
 ### 2.Solution
 
@@ -43,15 +45,15 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
 
 2.代入已知值：
 
-- 質子電荷 $ q_1 = q_2 = 1.6 \times 10^{-19} C $
-- 距離 $ r = 2.00 \times 10^{-15} m $
-- 庫侖常數 $ k = 8.988 \times 10^9 N\cdot m^2/C^2 $
+- 質子電荷 $q_1 = q_2 = 1.6 \times 10^{-19} C$
+- 距離 $r = 2.00 \times 10^{-15} m$
+- 庫侖常數 $k = 8.988 \times 10^9 N\cdot m^2/C^2$
 
 3.計算：
 
 - $F = \frac{(8.988 \times 10^9) (1.6 \times 10^{-19})^2}{(2.00 \times 10^{-15})^2} = 57.52 N$
 
-**答案：質子間的電力為 $ 57.52 N $。**
+**答案：質子間的電力為 $57.52 N$。**
 
 ---
 
@@ -106,30 +108,36 @@ An object having a net charge of $24.0 μC$ is placed in a uniform electric fiel
 
 ### 5.Solution
 
-因為$F = ma = mg = qE $  
+因為 $F = ma = mg = qE$  
 我們所求 $m = \frac {q \cdot E}{g} = \frac {24.0 \times 10^{-6} \times 610}{9.8} = 1.49 \times 10^{-3} g$
 
 ---
 
 ## 6. Electric Field on an Airplane in a Thundercloud
 
-An airplane is flying through a thundercloud at a height of $2000 m$. (This is a very dangerous thing to do because of updrafts, turbulence, and the possibility of electric discharge.) If acharge concentration of $+40.0 C$ is above the plane at a height of 3 000 m within the cloud and a charge concentration of $–40.0 C$ is at height $1000 m$, what is the electric field at the aircraft?
+An airplane is flying through a thundercloud at a height of $2000 m$. (This is a very dangerous thing to do because of updrafts, turbulence, and the possibility of electric discharge.) If acharge concentration of $+40.0 C$ is above the plane at a height of $3000 m$ within the cloud and a charge concentration of $–40.0 C$ is at height $1000 m$, what is the electric field at the aircraft?
 
 ### 6.中文翻譯
 
-一架飛機正在高度 $2000 m$ 的雷暴雲中飛行。在飛機上方 $3000 m$ 處有一個電荷分布 $+40.0$ C，在飛機下方 1000 m 處有一個電荷分布 $-40.0$ C。求飛機處的電場。
+一架飛機正在高度 $2000 m$ 的雷暴雲中飛行。在飛機上方 $3000 m$ 處有一個電荷分布 $+40.0$ C，在飛機下方 $1000 m$ 處有一個電荷分布 $-40.0$ C。求飛機處的電場。
 
 ### 6.Solution
 
 這題把飛機當成**Test charge** 對於不同**Source charge**求出**向量加總**
 1.**討論正電荷所施的電場方向**
+
    在 $3000m$ 處的 $+40C$ 所施加的電場方向為
-   $  \frac{8.988 \times 10^9\times 40}{(10^{3})^2} $
+   
+   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2}$
    方向為下
 2.**討論負電荷所施的電場方向**
+
    在 $1000m$ 處的 $-40C$ 所施加的電場方向為
-   $ \frac{8.988 \times 10^9\times 40}{(10^{3})^2} $ 方向為下
+   
+   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2} $ 方向為下
 
 3.**求出總和**
+
    **兩大小相同且方向相同**可以直接計算
-   $ \frac{2 \times 8.988 \times 10^9\times 40}{(10^{3})^2}  = 718400\frac{N}{C}$
+   
+   $\frac{2 \times 8.988 \times 10^9\times 40}{(10^{3})^2}  = 718400\frac{N}{C}$
