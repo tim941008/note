@@ -81,7 +81,7 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
 
 Two small beads(珠) having positive charges 3q and q are fixed at the opposite ends of a horizontal, insulating rod, extending from the origin to the point x = d. As shown in figure below, a third small charged bead is free to slide on the rod. At what position is the third bead in equilibrium? Can it be in stable [equilibrium](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/equilibrium) ?(平衡)
 
-[圖片](/resource/ch22hw_p1.png)
+![圖片](/resource/ch22hw_p1.png)
 
 ### 4.中文翻譯
 
@@ -113,7 +113,7 @@ An object having a net charge of $24.0 μC$ is placed in a uniform electric fiel
 
 ## 6. Electric Field on an Airplane in a Thundercloud
 
-An airplane is flying through a thundercloud at a height of 2 000 m. (This is a very dangerous thing to do because of updrafts, turbulence, and the possibility of electric discharge.) If acharge concentration of +40.0 C is above the plane at a height of 3 000 m within the cloud and a charge concentration of –40.0 C is at height 1 000 m, what is the electric field at the aircraft?
+An airplane is flying through a thundercloud at a height of $2000 m$. (This is a very dangerous thing to do because of updrafts, turbulence, and the possibility of electric discharge.) If acharge concentration of $+40.0 C$ is above the plane at a height of 3 000 m within the cloud and a charge concentration of $–40.0 C$ is at height $1000 m$, what is the electric field at the aircraft?
 
 ### 6.中文翻譯
 
