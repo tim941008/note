@@ -128,13 +128,13 @@ An airplane is flying through a thundercloud at a height of $2000 m$. (This is a
 
    在 $3000m$ 處的 $+40C$ 所施加的電場方向為
    
-   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2}$
-   方向為下
+   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2}$ 方向為下
+   
 2.**討論負電荷所施的電場方向**
 
    在 $1000m$ 處的 $-40C$ 所施加的電場方向為
    
-   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2} $ 方向為下
+   $\frac{8.988 \times 10^9\times 40}{(10^{3})^2}$ 方向為下
 
 3.**求出總和**
 
