@@ -14,13 +14,13 @@ The algorithm for myAtoi(string s) is as follows:
 
 3.Conversion: Read the integer by skipping leading zeros until a non-digit character is encountered or the end of the string is reached. If no digits were read, then the result is 0.
 
-4.Rounding: If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then round the integer to remain in the range. Specifically, integers less than -231 should be rounded to -231, and integers greater than 231 - 1 should be rounded to 231 - 1.
+4.Rounding: If the integer is out of the 32-bit signed integer range [ $-2^{31}$ , $2^{31}-1$ ], then round the integer to remain in the range. Specifically, integers less than -231 should be rounded to $-2^{31}$ , and integers greater than $2^{31}-1$ should be rounded to $2^{31}-1$.
 Return the integer as the final result.
 
 1.略過空格  
 2.檢查 $\pm$ 號  
 3.一直讀取到不是數字的字元，若沒有讀到數字回傳 ``0``  
-4.超過範圍則用 $2^31-1$ 或是 $-2^31$  
+4.超過範圍則用 $2^{31}-1$ 或是 $-2^{31}$  
 
 其實這題蠻有趣  
 在C語言``stdlib.h``其實有 ``atoi``這個函式🤣
