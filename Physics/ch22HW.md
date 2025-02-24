@@ -66,7 +66,7 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
 
 假設 1.00 g 的氫被分離為電子和質子，並且質子放置在地球的北極，電子放置在南極。求作用在地球上的壓縮力。
 
-### Solution
+### 3.Solution
 
 1.計算電荷總量：
 
