@@ -9,17 +9,20 @@ Implement the myAtoi(string s) function, which converts a string to a 32-bit sig
 The algorithm for myAtoi(string s) is as follows:
 
 1.Whitespace: Ignore any leading whitespace (" ").
+
 2.Signedness: Determine the sign by checking if the next character is '-' or '+', assuming positivity if neither present.
+
 3.Conversion: Read the integer by skipping leading zeros until a non-digit character is encountered or the end of the string is reached. If no digits were read, then the result is 0.
+
 4.Rounding: If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then round the integer to remain in the range. Specifically, integers less than -231 should be rounded to -231, and integers greater than 231 - 1 should be rounded to 231 - 1.
 Return the integer as the final result.
 
-1.略過空格
-2.檢查 $\pm$ 號
-3.沒有讀到數字回傳 ``0``
-4.超過範圍則用 $2^31-1$ 或是 $-2^31$
+1.略過空格  
+2.檢查 $\pm$ 號  
+3.一直讀取到不是數字的字元，若沒有讀到數字回傳 ``0``  
+4.超過範圍則用 $2^31-1$ 或是 $-2^31$  
 
-其實這題蠻有趣
+其實這題蠻有趣  
 在C語言``stdlib.h``其實有 ``atoi``這個函式🤣
 
 **Example 1:**
@@ -119,7 +122,7 @@ Reading stops at the first non-digit character 'w'.
     - 變數``i``代表**當前字串索引**
     - 變數``sum`` 儲存**數字轉換結果**，因為有可能會溢位，所以宣告型態為``long long``  
 2. **跳過空白**
-    - 先用``While``迴圈跳過前面空白
+    - 先用``while``迴圈跳過前面空白
 3. **判斷正負**
 4. **轉換數字**
     - 在轉換的同時**判斷是否有溢位**
@@ -154,6 +157,6 @@ int myAtoi(char* s) {
 ## 🕛時間複雜度分析
 
 - **O(n)**（迴圈遍歷）
-  - 最多遍歷一次**
+  - 最多遍歷一次
 
 ---
