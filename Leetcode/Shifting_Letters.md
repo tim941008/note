@@ -45,13 +45,11 @@ Output: "gfd"
 可以從陣列最後一個元素至陣列首元素移動
 每次迴圈更新``shift_sum``讓陣列前一個元素可以正確移動
 
-令 $\text{shift\_sum}[i] 表示 \text{shifts}[i] 到 \text{shifts}[n-1]$ 的總和
+令 $\text{shiftsum}[i] \text{表示} \text{shifts}[i] \text{到} \text{shifts}[n-1]$ 的總和
 
 可以得出 :
 
-$\text{shift\_sum}[i] 表示 \text{shifts}[i] 到 \text{shifts}[n-1]$  
-
-$\text{shift\_sum}[i] = (\text{shift\_sum}[i+1] + \text{shifts}[i]) \mod 26$
+$\text{shiftsum}[i] = (\text{shiftsum}[i+1] + \text{shifts}[i]) \mod 26$
 
 ---
 
