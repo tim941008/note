@@ -1,4 +1,4 @@
-# 解題紀錄
+# 解題紀錄 LeetCode 8
 
 ## 題目：字串轉整數（atoi）
 
@@ -58,7 +58,6 @@ Step 2: "   -042" ('-' is read, so the result should be negative)
              ^
 Step 3: "   -042" ("042" is read in, leading zeros ignored in the result)
                ^
-Example 3:
 ```
 
 **Example 3:**

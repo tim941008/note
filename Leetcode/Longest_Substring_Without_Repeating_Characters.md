@@ -1,4 +1,4 @@
-# 解題紀錄
+# 解題紀錄 LeetCode 3
 
 ## 題目：最長無重複字元的子字串（Longest Substring Without Repeating Characters）
 
