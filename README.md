@@ -11,7 +11,7 @@ Hi !
 1. [Two Sum（兩數之和）](Leetcode/twosum.md)
 2. [Add Two Numbers（將兩個數字相加）](Leetcode/addtwonumber.md)
 3. [Longest Substring Without Repeating Characters（最長無重複字元的子字串）](Leetcode/Longest_Substring_Without_Repeating_Characters.md)
-8. [String to Integer (字串轉整數)](Leetcode/Sring_to_Interger_atoi.md)
+4. [String to Integer (字串轉整數)](Leetcode/Sring_to_Interger_atoi.md)
 
 ### zerojudge👇
 
