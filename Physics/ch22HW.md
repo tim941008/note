@@ -73,7 +73,8 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
    $Q = N e = (6.02 \times 10^{23}) (1.602 \times 10^{-19}) $
 
 2.使用庫侖定律計算作用在地球上的力。
-   **設地球半徑 $6400km$ **
+   **設地球半徑** $6400km$
+
    帶入公式:
 
 - $F = \frac{(8.988 \times 10^9) (6.02 \times 1.6 \times 10^{4})^2}{(2 \times 6400 \times 10^{3})^2} = 5.08 \times 10^{3} N$
