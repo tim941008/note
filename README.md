@@ -1,32 +1,23 @@
-# 🙋‍♂️ 目錄大綱
+#  🙋‍♂️我的筆記分類 📂  
 
-Hi !
+## 資料結構📁   
+- [二分搜尋法](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/r1FGtZh9kg)  
+- [陣列](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/BkJ-g-25yx)  
 
----
+## Leetcode👇  
+- [Two Sum（兩數之和）](https://hackmd.io/@tsai1008/rkAyKYn9yl)  
+- [Add Two Numbers（將兩個數字相加）](https://hackmd.io/@tsai1008/HkgOtFh9yl)  
+- [Longest Substring Without Repeating Characters（最長無重複字元的子字串）](https://hackmd.io/@tsai1008/rkRihYh5yl)  
+- [String to Integer (字串轉整數)](https://hackmd.io/@tsai1008/S1BE3Yhq1g)  
+- [Shifting Letters (移動字母)](https://hackmd.io/@tsai1008/S1KRiFn51l)  
 
-## 📌 解題紀錄
+## zerojudge👇  
+- [a001（哈囉）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
+- [a002（簡易加法）](https://hackmd.io/@tsai1008/rkr_Z52qJe)  
+- [a003（兩光法師占卜術）](https://hackmd.io/@tsai1008/H1wn-c25yl)  
+- [a004（文文的求婚）](https://hackmd.io/@tsai1008/HyJkM93qkl)  
+- [f327（刪除欄位）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
 
-### Leetcode👇
 
-1. [Two Sum（兩數之和）](Leetcode/twosum.md)
-2. [Add Two Numbers（將兩個數字相加）](Leetcode/addtwonumber.md)
-3. [Longest Substring Without Repeating Characters（最長無重複字元的子字串）](Leetcode/Longest_Substring_Without_Repeating_Characters.md)
-4. [String to Integer (字串轉整數)](Leetcode/Sring_to_Interger_atoi.md)
-5. [Shifting Letters (移動字母)](Leetcode/Shifting_Letters.md)
 
-### zerojudge👇
-
-1. [a001（哈囉）](zerojudge/a001.md)
-2. [a002（簡易加法）](zerojudge/a002.md)
-3. [a003（兩光法師占卜術）](zerojudge/a003.md)
-4. [a004（文文的求婚）](zerojudge/a004.md)
-5. [f327（刪除欄位）](zerojudge/f327.md)
-
----
-
-## 📌 學習紀錄
-
-1. [Binary Search(二分搜尋法)](Data_Structure/Binary_search.md)
-2. [Array(陣列)](Data_Structure/Array.md)
-
-👉 **持續更新中……**
+👉 持續更新中……
