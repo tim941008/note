@@ -28,7 +28,8 @@ Given a string `s`, find the length of the longest substring without duplicate c
 ## ✒️ 解題思路
 
 1. **使用sliding window演算法**
-   - 使用兩個指標來維護一個動態窗口，該窗口會根據條件擴展或收縮，而不需要每次重新計算整個區間。
+   - 使用兩個變數來維護一個動態窗口，窗口會根據條件擴展或收縮，不需要每次重新計算整個區間。
+   - 降低**時間複雜度**
 2. **宣告變數**
    - ``left`` 標記左邊界``right``標記右邊界。
    - 宣告能儲存位置的陣列 ``lastIndex[]`` 查找是否出現過，以及最後位置，這是以``ASCII``為**key**，位置為**value**的方法。
