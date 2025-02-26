@@ -85,7 +85,7 @@ Two protons(質子) in an atomic nucleus(核) are typically separated by a dista
 
 Two small beads(珠) having positive charges 3q and q are fixed at the opposite ends of a horizontal, insulating rod, extending from the origin to the point x = d. As shown in figure below, a third small charged bead is free to slide on the rod. At what position is the third bead in equilibrium? Can it be in stable [equilibrium](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/equilibrium) ?(平衡)
 
-![圖片](/resource/ch22hw_p1.png)
+![圖片](https://raw.githubusercontent.com/tim941008/note/main/resource/ch22hw_p1.png))
 
 ### 4.中文翻譯
 
