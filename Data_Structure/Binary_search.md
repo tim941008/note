@@ -11,7 +11,7 @@
 
 **以下是用PowerPoint做的動畫示例**😳
 
-![Binary Search](https://raw.githubusercontent.com/tim941008/note/main/resource/binary_search.gif))
+![Binary Search](https://raw.githubusercontent.com/tim941008/note/main/resource/binary_search.gif)
 
 ## 演算過程
 
