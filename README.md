@@ -21,7 +21,7 @@
 - [a003（兩光法師占卜術）](https://hackmd.io/@tsai1008/H1wn-c25yl)  
 - [a004（文文的求婚）](https://hackmd.io/@tsai1008/HyJkM93qkl)  
 - [a005.(Eva 的回家作業)](https://hackmd.io/@tsai1008/a005)
-- [f327（刪除欄位）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
+- [f327（刪除欄位）](https://hackmd.io/@tsai1008/f327)  
 - [q182 (字串操作)](https://hackmd.io/@tsai1008/ry5Nfdp9Je)  
 
 ## 物理☠️  
