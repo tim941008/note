@@ -12,7 +12,7 @@
 - [Longest Substring Without Repeating Characters（最長無重複字元的子字串）](https://hackmd.io/@tsai1008/rkRihYh5yl)  
 - [String to Integer (字串轉整數)](https://hackmd.io/@tsai1008/S1BE3Yhq1g)  
 - [Shifting Letters (移動字母)](https://hackmd.io/@tsai1008/S1KRiFn51l)  
-- [Palindrome Number(回文數)](https://hackmd.io/@tsai1008/ryp91j3c1e)
+- [Palindrome Number(回文數)](https://hackmd.io/@tsai1008/ryp91j3c1e)  
 
 ## zerojudge👇  
 
@@ -21,9 +21,11 @@
 - [a003（兩光法師占卜術）](https://hackmd.io/@tsai1008/H1wn-c25yl)  
 - [a004（文文的求婚）](https://hackmd.io/@tsai1008/HyJkM93qkl)  
 - [f327（刪除欄位）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
+- [q182 (字串操作詞)](https://hackmd.io/@tsai1008/ry5Nfdp9Je)  
 
 ## 物理☠️  
 
-- [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)
+- [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
+- 
 
 👉 持續更新中……
