@@ -56,7 +56,7 @@ struct List* createNode(int data) {
 ### 3.3 插入節點
 
 將節點插入至串列的開頭
-![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/newnode.png)
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/newnode.gif)
 
 ```c
 void insertAtHead(struct List** head, int data) {
