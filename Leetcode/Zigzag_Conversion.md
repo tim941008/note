@@ -1,4 +1,4 @@
-# 解題紀錄 LeetCode 2
+# 解題紀錄 LeetCode 6
 
 ## 題目：鋸齒形轉換（Zigzag Conversion）
 
