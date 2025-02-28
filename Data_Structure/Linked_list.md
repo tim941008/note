@@ -26,6 +26,8 @@
 
 以下是**單向串列**(Single Linked List)使用
 
+![ ](image.png)
+
 ### 3.1 宣告與初始化
 
 ```c
@@ -40,7 +42,7 @@ struct List{
 ```c
 
 struct List* createNode(int data) {
-    struct List* newNode = (struct List*)malloc(sizeof(struct List));
+    struct List* newNode = (struct List*)malloc(sizeof(struct List));//分配記憶體
     if (newNode == NULL) {
         printf("記憶體分配失敗\n");
         return NULL;
@@ -59,7 +61,7 @@ struct List* createNode(int data) {
 void insertAtHead(struct List** head, int data) {
     struct List* newNode = createNode(data);
     if (newNode == NULL) return;
-    newNode->next = *head; 
+    newNode->next = *head; //使新節點的指標指向舊頭節點
     *head = newNode;
 }
 ```
@@ -94,7 +96,7 @@ void insertAtTail(struct List** head, int data) {
         return;
     }
     struct List* temp = *head;
-    while (temp->next != NULL) {
+    while (temp->next != NULL) {//找到尾節點
         temp = temp->next;
     }
     temp->next = newNode;
@@ -131,6 +133,7 @@ void printList(struct List* head) {
         printf("%d -> ", current->value);
         current = current->next;
     }
+    puts("NULL");
 }
 ```
 
