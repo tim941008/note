@@ -26,7 +26,7 @@
 
 以下是**單向串列**(Single Linked List)使用
 
-![ ](image.png)
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/Singlelist.png)
 
 ### 3.1 宣告與初始化
 
@@ -56,6 +56,7 @@ struct List* createNode(int data) {
 ### 3.3 插入節點
 
 將節點插入至串列的開頭
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/newnode.png)
 
 ```c
 void insertAtHead(struct List** head, int data) {
