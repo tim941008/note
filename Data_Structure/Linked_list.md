@@ -69,6 +69,8 @@ void insertAtHead(struct List** head, int data) {
 
 將節點插入至串列的某個值後
 
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/SLCinsert.gif)
+
 ```c
 void insertAfterValue(struct List** head, int target, int data) {
     struct List* temp = *head;
