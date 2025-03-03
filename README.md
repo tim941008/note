@@ -32,6 +32,6 @@
 ## 物理☠️  
 
 - [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
- -[ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
+- [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
 
 👉 持續更新中……
