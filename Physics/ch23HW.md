@@ -38,10 +38,10 @@ A cone with base radius R and height h is located on a horizontal table. A horiz
 **Solution:**  
 由於電場是水平的，只考慮側面積與電場的夾角。由高斯定律，電通量通過左側的部分為：
  $\Phi = E A_{\text{left}}$
-假設電場方向與左側夾角為 $\theta $，利用圓錐側面積計算公式得：
+假設電場方向與左側夾角為 $\theta$，利用圓錐側面積計算公式得：
 垂直錐體的平面: $A = \frac{1}{2} \times 2 R h$
 
- $\Phi = E \times \frac{1}{2} \times  R h$
+ $\Phi = E \times  R h$
 
 **Answer:**
 $\Phi = E  R h$
@@ -83,9 +83,9 @@ A point charge of $12.0 μC$ is placed at the center of a spherical shell of rad
 
 **Question Translation:**  
 一個 $12.0 μC$ 的點電荷被放置在半徑為 $22.0 cm$ 的球殼中心。
-(a) 求球殼表面的總電通量。
-(b) 求球殼任意半球面的電通量。
-(c) 結果是否取決於半徑？解釋原因。
+(a) 求球殼表面的總電通量  
+(b) 求球殼任意半球面的電通  
+(c) 結果是否取決於半徑？解釋原  
 
 **Solution:**  
 根據高斯定律，封閉曲面的電通量僅與內部總電荷有關：
@@ -117,8 +117,8 @@ A charge of $170 μC$ is at the center of a cube of edge $80.0 cm$.
 
 **Question Translation:**  
 一個 170 μC 的電荷位於邊長 80.0 cm 的立方體中心。
-(a) 求每個面的總電通量。
-(b) 求整個立方體的總電通量。
+(a) 求每個面的總電通量  
+(b) 求整個立方體的總電通量  
 (c) 如果電荷不是位於中心，答案會改變嗎？解釋。
 
 **Solution:**  
@@ -135,9 +135,9 @@ A charge of $170 μC$ is at the center of a cube of edge $80.0 cm$.
 
 
 **Answer:**
- (a) $3.20 \times 10^6$ N·m²/C
- (b) $1.92 \times 10^7$ N·m²/C
- (c) 總通量不變，但每個面不同。
+ (a) $3.20 \times 10^6$ N·m²/C  
+ (b) $1.92 \times 10^7$ N·m²/C  
+ (c) 總通量不變，但每個面不同  
 
 ---
 
