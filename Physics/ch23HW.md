@@ -12,7 +12,7 @@ A vertical electric field of magnitude $2.00 × 10^4 N/C$ exists above the Earth
 
 **Solution:**  
 電通量由公式計算：
- $\Phi = E A \cos \theta $
+ $\Phi = E A \cos \theta$
 其中：
 
 - $E = 2.00 \times 10^4$ N/C(電場強度)
@@ -64,7 +64,7 @@ Four closed surfaces, S1 through S4, together with the charges –2Q, Q, and –
 
 **Answer:**
 
- $\Phi_{s1} = \frac{Q}{\varepsilon_0}$
+ $\Phi_{s1} = \frac{-Q}{\varepsilon_0}$
 
  $\Phi_{s2} = 0$
 
