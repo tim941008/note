@@ -34,4 +34,7 @@
 - [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
 - [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
 
+## 線性代數🔞
+
+- [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
 👉 持續更新中……
