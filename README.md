@@ -15,9 +15,10 @@
 - [String to Integer (字串轉整數)](https://hackmd.io/@tsai1008/S1BE3Yhq1g)  
 - [Shifting Letters (移動字母)](https://hackmd.io/@tsai1008/S1KRiFn51l)  
 - [Palindrome Number(回文數)](https://hackmd.io/@tsai1008/ryp91j3c1e)  
+- [Reverse Linked List](https://hackmd.io/@tsai1008/206)  
 - [Apply Operations to an Array](https://hackmd.io/@tsai1008/HkRme9giJg)
 
-## zerojudge👇  
+## zerojudge👇
 
 - [a001（哈囉）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
 - [a002（簡易加法）](https://hackmd.io/@tsai1008/rkr_Z52qJe)  
@@ -27,7 +28,7 @@
 - [a006.(一元二次方程式)](https://hackmd.io/@tsai1008/a006)  
 - [a009.(解碼器)](https://hackmd.io/@tsai1008/a009)  
 - [f327（刪除欄位）](https://hackmd.io/@tsai1008/f327)  
-- [q182 (字串操作)](https://hackmd.io/@tsai1008/ry5Nfdp9Je)  
+- [q182 (字串操作)](https://hackmd.io/@tsai1008/q182)  
 
 ## 物理☠️  
 
@@ -39,4 +40,4 @@
 - [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
 
 
-👉 持續更新中……
+
