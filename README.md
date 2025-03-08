@@ -18,7 +18,7 @@
 - [Reverse Linked List](https://hackmd.io/@tsai1008/206)  
 - [Apply Operations to an Array](https://hackmd.io/@tsai1008/HkRme9giJg)
 
-## zerojudge👇
+## zerojudge👇  
 
 - [a001（哈囉）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
 - [a002（簡易加法）](https://hackmd.io/@tsai1008/rkr_Z52qJe)  
@@ -27,6 +27,8 @@
 - [a005.(Eva 的回家作業)](https://hackmd.io/@tsai1008/a005)  
 - [a006.(一元二次方程式)](https://hackmd.io/@tsai1008/a006)  
 - [a009.(解碼器)](https://hackmd.io/@tsai1008/a009)  
+- [a010.(因數分解)](https://hackmd.io/@tsai1008/a010)  
+- [e924.(pC.括號配對)](https://hackmd.io/@tsai1008/e924)  
 - [f327（刪除欄位）](https://hackmd.io/@tsai1008/f327)  
 - [q182 (字串操作)](https://hackmd.io/@tsai1008/q182)  
 
@@ -38,6 +40,4 @@
 ## 線性代數🔞
 
 - [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
-
-
 
