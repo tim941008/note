@@ -20,20 +20,20 @@
 
 ## zerojudge👇  
 
-- [a001（哈囉）](https://hackmd.io/@tsai1008/r1Bjgch91l)  
-- [a002（簡易加法）](https://hackmd.io/@tsai1008/rkr_Z52qJe)  
-- [a003（兩光法師占卜術）](https://hackmd.io/@tsai1008/H1wn-c25yl)  
-- [a004（文文的求婚）](https://hackmd.io/@tsai1008/HyJkM93qkl)  
-- [a005.(Eva 的回家作業)](https://hackmd.io/@tsai1008/a005)  
-- [a006.(一元二次方程式)](https://hackmd.io/@tsai1008/a006)  
-- [a009.(解碼器)](https://hackmd.io/@tsai1008/a009)  
-- [a010.(因數分解)](https://hackmd.io/@tsai1008/a010)  
-- [a013.(羅馬數字)](https://hackmd.io/@tsai1008/a013)  
-- [a015(矩陣的翻轉)](https://hackmd.io/@tsai1008/a015)  
-- [e357 (遞迴函數練習)](https://hackmd.io/@tsai1008/e357)  
-- [e924.(pC.括號配對)](https://hackmd.io/@tsai1008/e924)  
-- [f327（刪除欄位）](https://hackmd.io/@tsai1008/f327)  
-- [q182 (字串操作)](https://hackmd.io/@tsai1008/q182)  
+- [a001.哈囉](https://hackmd.io/@tsai1008/r1Bjgch91l)  
+- [a002.簡易加法](https://hackmd.io/@tsai1008/rkr_Z52qJe)  
+- [a003.兩光法師占卜術](https://hackmd.io/@tsai1008/H1wn-c25yl)  
+- [a004.文文的求婚](https://hackmd.io/@tsai1008/HyJkM93qkl)  
+- [a005.Eva 的回家作業](https://hackmd.io/@tsai1008/a005)  
+- [a006.一元二次方程式](https://hackmd.io/@tsai1008/a006)  
+- [a009.解碼器](https://hackmd.io/@tsai1008/a009)  
+- [a010.因數分解](https://hackmd.io/@tsai1008/a010)  
+- [a013.羅馬數字](https://hackmd.io/@tsai1008/a013)  
+- [a015.矩陣的翻轉](https://hackmd.io/@tsai1008/a015)  
+- [e357.遞迴函數練習](https://hackmd.io/@tsai1008/e357)  
+- [e924.pC.括號配對](https://hackmd.io/@tsai1008/e924)  
+- [f327.刪除欄位](https://hackmd.io/@tsai1008/f327)  
+- [q182.字串操作](https://hackmd.io/@tsai1008/q182)  
 
 ## 物理☠️  
 
