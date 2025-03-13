@@ -30,6 +30,7 @@
 - [a010.因數分解](https://hackmd.io/@tsai1008/a010)  
 - [a013.羅馬數字](https://hackmd.io/@tsai1008/a013)  
 - [a015.矩陣的翻轉](https://hackmd.io/@tsai1008/a015)  
+- [a024.最大公因數(GCD)](https://hackmd.io/@tsai1008/a024) 
 - [e357.遞迴函數練習](https://hackmd.io/@tsai1008/e357)  
 - [e924.pC.括號配對](https://hackmd.io/@tsai1008/e924)  
 - [f327.刪除欄位](https://hackmd.io/@tsai1008/f327)  
