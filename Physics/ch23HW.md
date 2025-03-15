@@ -20,6 +20,7 @@ A vertical electric field of magnitude $2.00 × 10^4 N/C$ exists above the Earth
 - $\theta = 10.0^\circ$（傾斜角）
 
 $\Phi = (2.00 \times 10^4) \times (18.0) \times \cos 10.0^\circ$
+
 $\Phi \approx 3.54 \times 10^5 \, \text{N} \cdot \text{m}^2 / \text{C}$
 
 **Answer:** $3.54 \times 10^5$ N·m²/C
@@ -37,7 +38,7 @@ A cone with base radius R and height h is located on a horizontal table. A horiz
 
 **Solution:**  
 由於電場是水平的，只考慮側面積與電場的夾角。由高斯定律，電通量通過左側的部分為：
- $\Phi = E A_{\text{left}}$
+ $\Phi = EA$
 假設電場方向與左側夾角為 $\theta$，利用圓錐側面積計算公式得：
 垂直錐體的平面: $A = \frac{1}{2} \times 2 R h$
 
@@ -59,7 +60,7 @@ Four closed surfaces, S1 through S4, together with the charges –2Q, Q, and –
 
 **Solution:**  
 根據高斯定律：
- $\Phi = \frac{q_{\text{enc}}}{\varepsilon_0}$
+ $\Phi = \frac{q}{\varepsilon_0}$
 對每個表面計算封閉的淨電荷，然後應用公式。
 
 **Answer:**
@@ -96,13 +97,13 @@ A point charge of $12.0 μC$ is placed at the center of a spherical shell of rad
  $\Phi \approx 1.36 \times 10^6 \, \text{N} \cdot \text{m}^2 / \text{C}$  
 
 (b) 半球通量為總通量的一半：
- $\Phi_{\text{hemisphere}} = \frac{1}{2} \Phi \approx 6.81 \times 10^5 \, \text{N} \cdot \text{m}^2 / \text{C}$
+ $\Phi_{\text{hemisphere}} = \frac{1}{2} \Phi \approx 6.78 \times 10^5 \, \text{N} \cdot \text{m}^2 / \text{C}$
 (c) 由於高斯定律，通量與半徑無關。
 
 **Answer:**
 (a) $1.36 \times 10^6$ N·m²/C
 
-(b) $6.81 \times 10^5$ N·m²/C
+(b) $6.78 \times 10^5$ N·m²/C
 
 (c) 不取決於半徑。
 
@@ -156,8 +157,8 @@ The charge per unit length on a long, straight filament is –90.0 μC/m. Find t
 (b) $E = \frac{-90.0 \times 10^{-6}}{2 \pi \times 8.85 \times 10^{-12} \times 0.2}$
 (c) $E = \frac{-90.0 \times 10^{-6}}{2 \pi \times 8.85 \times 10^{-12} \times 1}$
 **Answer:**
-(a) $-1.62 \times 10^7 N/C$  
-(b) $-8.11 \times 10^6 N/C$  
-(c) $-1.62 \times 10^6 N/C$  
+(a) $1.62 \times 10^7 N/C$  
+(b) $8.09 \times 10^6 N/C$  
+(c) $1.62 \times 10^6 N/C$  
 
 ---
