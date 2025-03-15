@@ -1,5 +1,11 @@
 # 🙋‍♂️我的筆記分類 📂
 
+---
+
+## ♨️  
+
+- [主頁](https://hackmd.io/@tsai1008/SJ32kMQnJl)
+
 ## 資料結構📁  
 
 - [二分搜尋法](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/r1FGtZh9kg)  
@@ -46,6 +52,6 @@
 
 - [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
 
-## Daan電工機械
+## Daan電工機械(手寫)
 
--[電工](https://hackmd.io/@tsai1008/BkmOQMpsye)  
+- [電工](https://hackmd.io/@tsai1008/BkmOQMpsye)  
