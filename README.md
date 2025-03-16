@@ -52,6 +52,6 @@
 
 - [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
 
-## Daan電工機械(手寫)
+## Daan(手寫筆記)
 
 - [看圖說故事](https://hackmd.io/@tsai1008/BkmOQMpsye)  
