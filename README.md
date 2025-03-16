@@ -49,6 +49,7 @@
 
 - [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
 - [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
+- [ch24]([ch23](https://hackmd.io/@tsai1008/ch24hw))
 
 ## 線性代數🔞
 

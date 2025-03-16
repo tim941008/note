@@ -86,7 +86,7 @@ A point charge of $12.0 μC$ is placed at the center of a spherical shell of rad
 一個 $12.0 μC$ 的點電荷被放置在半徑為 $22.0 cm$ 的球殼中心。
 (a) 求球殼表面的總電通量  
 (b) 求球殼任意半球面的電通  
-(c) 結果是否取決於半徑？解釋原  
+(c) 結果是否取決於半徑？  
 
 **Solution:**  
 根據高斯定律，封閉曲面的電通量僅與內部總電荷有關：
