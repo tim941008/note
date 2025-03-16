@@ -1,4 +1,4 @@
-# Chapter 23  
+# Chapter 24  
 
 ## Homework
 
@@ -7,42 +7,36 @@
 ### **Problem 1**
 
 **Question Translation:**  
-A vertical electric field of magnitude $2.00 × 10^4 N/C$ exists above the Earth’s surface on a day when a [thunderstorm](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/thunderstorm)(雷雨) is brewing. A car with a rectangular size of 6.00 m by $3.00 m$ is traveling along a roadway sloping downward at 10.0°. Determine the electric flux through the bottom of the car.
-在雷暴即將來臨的日子，地表上方存在一個強度為 $2.00 \times 10^4 N/C$ 的垂直電場。一輛長 6.00 m、寬 3.00 m 的汽車沿著 $10.0^\circ$ 的下坡道路行駛。求汽車底部的電通量。
+The difference in potential between the accelerating plates in the electron [gun](https://en.wikipedia.org/wiki/Electron_gun)(電子槍) of a TV picture tube is about $25000 V$ . If the distance between these plates is $1.50 cm$ , what is the magnitude of the uniform electric field in this region?
+電視顯像管的電子槍加速板之間的電位差約為 25,000 V，這些板之間的距離為 1.50 cm，求該區域內均勻電場的大小。
 
 **Solution:**  
 電通量由公式計算：
- $\Phi = E A \cos \theta$
-其中：
+ $E = \frac{V}{d}$
 
-- $E = 2.00 \times 10^4$ N/C(電場強度)
-- $A = 6.00 \times 3.00 = 18.0 m^2$（底部面積）
-- $\theta = 10.0^\circ$（傾斜角）
+- $V = 25000$ V  
+- $d = 0.015$ m  
 
-$\Phi = (2.00 \times 10^4) \times (18.0) \times \cos 10.0^\circ$
-
-$\Phi \approx 3.54 \times 10^5 \, \text{N} \cdot \text{m}^2 / \text{C}$
-
-**Answer:** $3.54 \times 10^5$ N·m²/C
+**Answer:** $E = \frac{25000}{0.015} = 1.67 \times 10^6 V/m$  
 
 ---
 
 ### **Problem 2**
 
-A cone with base radius R and height h is located on a horizontal table. A horizontal uniform field E penetrates the cone, as shown in Figure P24.2. Determine the electric flux that enters the left-hand side of the cone.
-
-![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch23_1.jpg)
+An insulating rod having linear charge density $λ = 40.0 μC/m$ and linear mass density $μ = 0.100 kg/m$ is released from rest in a uniform electric field $E = 100 V/m$ directed perpendicular to the rod (right figure).  
+(a) Determine the speed of the rod after it has traveled $2.00 m.$  
+(b) What If? How does your answer to part (a) change if the electric field is not perpendicular to the rod? Explain.  
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch24_1.png)
 
 **Question Translation:**  
-一個底半徑為 $R$、高為 $h$ 的圓錐放置於水平桌面上。一個水平均勻電場 $E$ 穿過圓錐，求進入圓錐左側的電通量。
+
+一根帶電的絕緣棒，其線電荷密度為 $λ=40.0 μC/m$ ，線質量密度為 $μ=0.100 kg/m$ 。在與棒垂直的均勻電場 $
+E=100 V/m$ 中從靜止釋放。
+(a) 計算桿子運動 $2.00 m$ 後的速度。
+(b) 如果電場不垂直於桿，結果會如何變化？說明。
 
 **Solution:**  
-由於電場是水平的，只考慮側面積三角形。由高斯定律，電通量通過的部分為：
- $\Phi = EA$
 
-垂直錐體的平面: $A = \frac{1}{2} \times 2 R h$
-
- $\Phi = E \times  R h$
 
 **Answer:**
 $\Phi = E  R h$
