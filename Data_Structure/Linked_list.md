@@ -164,7 +164,7 @@ void reverse(struct List** head) {
 
 ### 3.7環狀單向串列
 
-在**環狀單向串列（Circular Singly Linked List, CSLL**中，所有節點依照單向連結的方式組成一個環，即最後一個節點的指標``next``指向第一個節點，而非 ``NULL``。
+在**環狀單向串列Circular Singly Linked List, CSLL**中，所有節點依照單向連結的方式組成一個環，即最後一個節點的指標``next``指向第一個節點，而非 ``NULL``。
 
 就像歌單循環播放
 
