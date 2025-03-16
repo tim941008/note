@@ -26,7 +26,6 @@
 - [Container With Most Water](https://hackmd.io/@tsai1008/rJU4N-7hye) 
 - [Longest Common Prefix](https://hackmd.io/@tsai1008/14)  
 
-
 ## zerojudge👇  
 
 - [a001.哈囉](https://hackmd.io/@tsai1008/r1Bjgch91l)  
@@ -49,7 +48,7 @@
 
 - [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
 - [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
-- [ch24]([ch23](https://hackmd.io/@tsai1008/ch24hw))
+- [ch24](https://hackmd.io/@tsai1008/ch24hw)  
 
 ## 線性代數🔞
 

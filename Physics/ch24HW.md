@@ -6,7 +6,7 @@
 
 ### **Problem 1**
 
-The difference in potential between the accelerating plates in the electron [gun](https://en.wikipedia.org/wiki/Electron_gun)(電子槍) of a TV picture tube is about $25000 V$ . If the distance between these plates is $1.50 cm$ , what is the magnitude of the uniform electric field in this region?  
+The difference in potential between the accelerating plates in the [electron gun](https://en.wikipedia.org/wiki/Electron_gun)(電子槍) of a TV picture tube is about $25000 V$ . If the distance between these plates is $1.50 cm$ , what is the magnitude of the uniform electric field in this region?  
 
 **Question Translation:**  
 
@@ -161,13 +161,14 @@ Two particles, with charges of $20.0 nC$ and $–20.0 nC$ , are placed at the po
 (a) Find the electric potential energy of the configuration of the three fixed charges.  
 (b) A fourth particle, with a mass of $2.00 × 10^{–13} kg$ and a charge of $40.0 nC$ , is released from rest at the point $(3.00 cm, 0)$ . Find its speed after it has moved freely to a very large distance away.  
 ![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch24_3.png)
+
 **Question Translation:**  
-已知三個電荷配置，求其電勢能，並計算第四個電荷釋放後的速度。
+
+計算軸上某點的電勢，假設環的面電荷密度為 $𝜎$
 
 **Solution:**  
 
 
 **Answer:**
-
 
 ---
