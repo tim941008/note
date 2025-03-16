@@ -160,5 +160,147 @@ void reverse(struct List** head) {
     *head = prev;
 }
 
+```
+
+### 3.7環狀單向串列
+
+在**環狀單向串列（Circular Singly Linked List, CSLL**中，所有節點依照單向連結的方式組成一個環，即最後一個節點的指標``next``指向第一個節點，而非 ``NULL``。
+
+就像歌單循環播放
+
+以下是實作
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <mmsystem.h>
+// 環狀串列節點
+typedef struct SoundNode {
+    char soundFile[100];  // 存放音效檔案名稱
+    struct SoundNode* next; // 指向下一個節點
+} SoundNode;
+// 環狀串列  
+typedef struct {
+    SoundNode* head; // 指向環狀串列的頭節點
+} SoundList;
+// 創建新節點  
+SoundNode* createNode(const char* filename) {
+    SoundNode* newNode = (SoundNode*)malloc(sizeof(SoundNode));
+    if (newNode == NULL) {
+        printf("記憶體分配失敗\n");
+        return NULL;
+    }
+    strcpy(newNode->soundFile, filename);
+    newNode->next = newNode; // 初始時自己指向自己
+    return newNode;
+}
+// 插入音效到串列
+void insertSound(SoundList* list, const char* filename) {
+    SoundNode* newNode = createNode(filename);
+    if (newNode == NULL) return;
+
+    if (list->head == NULL) {
+        list->head = newNode;
+    } else {
+        SoundNode* temp = list->head;
+        while (temp->next != list->head) { // 找到最後一個節點
+            temp = temp->next;
+        }
+        temp->next = newNode;
+        newNode->next = list->head;
+    }
+}
+// 播放當前節點的音效
+void playCurrentSound(SoundNode* node) {
+    if (node == NULL) return;
+    printf("播放音效: %s\n", node->soundFile);
+    PlaySound(TEXT(node->soundFile), NULL, SND_FILENAME | SND_SYNC); // 同步播放
+}
+
+// 循環播放所有音效
+void playAllSounds(SoundList* list, int loopCount) {
+    if (list->head == NULL) {
+        printf("音效清單為空\n");
+        return;
+    }
+
+    SoundNode* current = list->head;
+    for (int i = 0; i < loopCount; i++) { // 控制循環次數
+        do {
+            playCurrentSound(current);
+            current = current->next;
+        } while (current != list->head);
+    }
+}
+
+// 刪除指定音效
+void deleteSound(SoundList* list, const char* filename) {
+    if (list->head == NULL) return;
+    SoundNode *temp = list->head, *prev = NULL;
+    // 如果刪除的是頭節點
+    if (strcmp(temp->soundFile, filename) == 0) {
+        SoundNode* tail = list->head;
+        while (tail->next != list->head) {
+            tail = tail->next;
+        }
+        if (list->head == list->head->next) { // 只剩一個節點
+            free(list->head);
+            list->head = NULL;
+        } else {
+            list->head = temp->next;
+            tail->next = list->head;
+            free(temp);
+        }
+        return;
+    }
+    // 找到要刪除的節點
+    do {
+        prev = temp;
+        temp = temp->next;
+        if (strcmp(temp->soundFile, filename) == 0) {
+            prev->next = temp->next;
+            free(temp);
+            return;
+        }
+    } while (temp != list->head);
+
+    printf("未找到音效 %s\n", filename);
+}
+
+// 顯示所有音效
+void printSounds(SoundList* list) {
+    if (list->head == NULL) {
+        printf("音效清單為空\n");
+        return;
+    }
+
+    SoundNode* temp = list->head;
+    do {
+        printf("%s -> ", temp->soundFile);
+        temp = temp->next;
+    } while (temp != list->head);
+    printf("(回到 %s)\n", list->head->soundFile);
+}
+
+// 測試主程式
+int main() {
+    SoundList soundList = { NULL };
+    insertSound(&soundList, "sound1.wav");
+    insertSound(&soundList, "sound2.wav");
+    insertSound(&soundList, "sound3.wav");
+    printSounds(&soundList);
+    puts("\n開始播放循環音效");
+    playAllSounds(&soundList, 2); // 播放兩輪 
+    printf("\n刪除 sound2.wav\n");
+    deleteSound(&soundList, "sound2.wav");
+    printSounds(&soundList);
+
+    return 0;
+}
 
 ```
+
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/playsound.png)
+
+---
