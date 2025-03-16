@@ -140,5 +140,25 @@ void printList(struct List* head) {
 }
 ```
 
-228好累休息一下之後再補圖...還有reverse
-😑至於動態記憶體配置在考慮出一篇C\C++語法...  
+### 3.6 反轉串列  
+
+這裡使用``pre``紀錄前一節點  
+``cur``代表當前節點並將此節節點反轉  
+``next``為下一節點  
+
+```c
+void reverse(struct List** head) {
+    struct List* prev = NULL;
+    struct List* current = *head;
+    struct List* next = NULL;
+    while (current != NULL) {
+        next = current->next;//更新至下一個節點
+        current->next = prev;//反轉
+        prev = current;//移動指標
+        current = next;
+    }
+    *head = prev;
+}
+
+
+```
