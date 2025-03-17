@@ -36,8 +36,7 @@ An insulating rod having linear charge density $λ = 40.0 μC/m$ and linear mass
 
 **Question Translation:**  
 
-一根帶電的絕緣棒，其線電荷密度為 $λ=40.0 μC/m$ ，線質量密度為 $μ=0.100 kg/m$ 。在與棒垂直的均勻電場 $
-E=100 V/m$ 中從靜止釋放。
+一根帶電的絕緣棒，其線電荷密度為 $λ=40.0 μC/m$ ，線質量密度為 $μ=0.100 kg/m$ 。在與棒垂直的均勻電場 $E=100 V/m$ 中從靜止釋放。  
 (a) 計算桿子運動 $2.00 m$ 後的速度。
 (b) 如果電場不垂直於桿，結果會如何變化？說明。
 
@@ -66,7 +65,9 @@ E=100 V/m$ 中從靜止釋放。
 **Question Translation:**  
 
 (a) 計算距離質子 $1.00 cm$ 的電勢。
+
 (b) 計算 $1.00 cm$ 和 $2.00 cm$ 之間的電勢差。
+
 (c) 對電子重複 (a) 和 (b) 的計算。
 
 **Solution:**  
@@ -97,7 +98,9 @@ Two point charges, $Q1 = +5.00 nC$ and $Q2 = –3.00 nC$ , are separated by $35.
 **Question Translation:**  
 
 $Q1=+5.00 nC$ ，$Q2=−3.00 nC$ ，相距 $35.0 cm$ 。
+
 (a) 計算這對電荷的電位能，並解釋其符號意義。  
+
 (b) 計算兩電荷中點的電勢。  
 
 **Solution:**  
@@ -156,6 +159,7 @@ The potential in a region between $x = 0$ and $x = 6.00 m$ is $V = a + bx$ , whe
 
 **Answer:**  
 (a)  
+
 $V(0) = 10 + -7 \times 0 =  10$
 $V(3) = 10 + -7 \times 3 = -11$  
 $V(6) = 10 + -7 \times 6 = -32$  
