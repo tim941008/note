@@ -10,7 +10,7 @@ The difference in potential between the accelerating plates in the [electron gun
 
 **Question Translation:**  
 
-電視顯像管的電子槍加速板之間的電位差約為 25,000 V，這些板之間的距離為 1.50 cm，求該區域內均勻電場的大小。
+電視顯像管的電子槍加速板之間的電位差約為 $25000 V$ ，這些板之間的距離為 $1.50 cm$ ，求該區域內均勻電場的大小。
 
 **Solution:**  
 
@@ -116,18 +116,28 @@ $Q1=+5.00 nC$ ，$Q2=−3.00 nC$ ，相距 $35.0 cm$ 。
 ### **Problem 5**
 
 Two particles, with charges of $20.0 nC$ and $–20.0 nC$ , are placed at the points with coordinates $(0, 4.00 cm)$ and $(0, –4.00 cm)$ , as shown in right figure. A particle with charge $10.0 nC$ is located at the origin.  
-(a) Find the electric potential energy of the configuration of the three fixed charges.  
+(a) Find the electric potential energy of the [configuration](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/configuration#google_vignette)(配置) of the three fixed charges.  
 (b) A fourth particle, with a mass of $2.00 × 10^{–13} kg$ and a charge of $40.0 nC$ , is released from rest at the point $(3.00 cm, 0)$ . Find its speed after it has moved freely to a very large distance away.  
-![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch24_2.png) 
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch24_2.png)  
 
 **Question Translation:**  
 已知三個電荷配置，求其電勢能，並計算第四個電荷釋放後的速度。
 
 **Solution:**  
 
+觀察圖片上下 $\pm 20nC$ 對 $10nC$的電位互相抵銷
+只要計算 $\pm 20nC$ 電位能  
+ $U_{12} =k\frac{Q_1Q_2}{r} = 8.99 \times 10^{9} \times \frac{-(20 \times 10^{-9})^2}{0.08}$  
 
+ $40nC$ 正電荷所在電位為:  
+$V = 8.99\times 10^9 \times \frac{10\times 10^{-9}}{0.03} = 2996.7V$  
+$U = QV = 1.2 \times 10^{-4}$  
+
+$\Delta K = \Delta U = 0.5\times mv^2$
+$v = \sqrt{\frac{2\times 1.2\times 10^{-4}}{2\times 10^{-13}}} $  
 **Answer:**
-
+(a) $4.495\times 10^{-5}J$
+(b) $3.46\times 10^4m/s$
 
 ---
 
@@ -146,9 +156,9 @@ The potential in a region between $x = 0$ and $x = 6.00 m$ is $V = a + bx$ , whe
 
 **Answer:**  
 (a)  
-
+$V(0) = 10 + -7 \times 0 =  10$
 $V(3) = 10 + -7 \times 3 = -11$  
-$V(3) = 10 + -7 \times 6 = -32$  
+$V(6) = 10 + -7 \times 6 = -32$  
 
 (b)
 $7.00V/m$  
@@ -157,18 +167,23 @@ $7.00V/m$
 
 ### **Problem 7**
 
-Two particles, with charges of $20.0 nC$ and $–20.0 nC$ , are placed at the points with coordinates $(0, 4.00 cm)$ and $(0, –4.00 cm)$ , as shown in right figure. A particle with charge $10.0 nC$ is located at the origin.  
-(a) Find the electric potential energy of the configuration of the three fixed charges.  
-(b) A fourth particle, with a mass of $2.00 × 10^{–13} kg$ and a charge of $40.0 nC$ , is released from rest at the point $(3.00 cm, 0)$ . Find its speed after it has moved freely to a very large distance away.  
+Calculate the electric potential at point P on the axis of the annulus shown in below figure, which has a uniform charge density σ.  
 ![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch24_3.png)
 
 **Question Translation:**  
 
-計算軸上某點的電勢，假設環的面電荷密度為 $𝜎$
+計算軸上某點的電位，假設環的面電荷密度為 $\sigma$
 
 **Solution:**  
+用大圓盤減小圓盤  
+ $V = k\int_{a}^{b} \frac{dq}{\sqrt{r^2+x^2}} = k\int_{a}^{b}\frac{\sigma dA}{\sqrt{r^2+x^2}} =2\pi\sigma k\int_{a}^{b}\frac{rdr}{\sqrt{r^2+x^2}}$  
 
+Let :  
+ $u = x^2 + r^2$
+ $du = 2rdr$  
+ $V = 2\pi\sigma k\int\frac{1}{\sqrt{u}}du$
+**Answer:**  
 
-**Answer:**
+$2k\pi\sigma\left(\sqrt{b^2 + x^2} -\sqrt{a^2 + x^2}\right)$
 
 ---
