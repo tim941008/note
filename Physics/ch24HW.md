@@ -160,7 +160,7 @@ The potential in a region between $x = 0$ and $x = 6.00 m$ is $V = a + bx$ , whe
 **Answer:**  
 (a)  
 
-$V(0) = 10 + -7 \times 0 =  10$
+$V(0) = 10 + -7 \times 0 =  10$  
 $V(3) = 10 + -7 \times 3 = -11$  
 $V(6) = 10 + -7 \times 6 = -32$  
 
