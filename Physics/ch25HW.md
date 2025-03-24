@@ -145,7 +145,7 @@ Determine (a) the capacitance and (b) the maximum potential difference that can 
 (b)
 Teflon最大電場 $6\times10^7V/m$
 **Answer:**
-(a) $8.14pF$  
-(b)$2.4kV$  
+(a) $8.13\times 10^{-11}F$  
+(b) $2.4kV$  
 
 ---
