@@ -55,6 +55,8 @@ Three capacitors are connected to a battery as shown in below figure. Their capa
 
 ![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch25_1.png)
 
+[解題影片](https://youtu.be/MkQCxFdIzfo)
+
 **Question Translation:**  
 三個電容器如圖所示連接到電池。已知 C₁ = 3C，C₂ = C，C₃ = 5C。  
 (a) 求此電容器組合的等效電容值。  
@@ -63,106 +65,87 @@ Three capacitors are connected to a battery as shown in below figure. Their capa
 (d) 如果 增大 C₃，這些電容器所儲存的電荷會如何變化？  
 
 **Solution:**  
-根據高斯定律：
- $\Phi = \frac{q}{\varepsilon_0}$
-對每個表面計算封閉的淨電荷，然後應用公式。
-
-**Answer:**
-
- $\Phi_{s1} = \frac{-Q}{\varepsilon_0}$
-
- $\Phi_{s2} = 0$
-
- $\Phi_{s3} = \frac{-2Q}{\varepsilon_0}$
-
- $\Phi_{s4} = 0$
+(a)  
+根據電容串並聯特性:
+並聯電容相加 $C_2 + C_3 = 6$
+最後串聯$\frac{6 \times 3}{3 + 6} = 2C$
+(b)
+$Q_1 > Q_3 > Q_2$  
+(c)
+$V_1 > V_3 = V_2$
+(d)
+$Q_1$ increase  
+$Q_2$ decrease
 
 ---
 
 ### **Problem 4**
 
-A point charge of $12.0 μC$ is placed at the center of a spherical shell of radius 22.0 cm. What is the total electric flux through
-(a) the surface of the shell and
-(b) any [hemispherical](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/hemispherical)(半球形) surface of the shell?
-(c) Do the results depend on the radius? Explain.
+Find the equivalent capacitance between points a and b for the group of capacitors connected as shown in below figure. Take $C1 = 5.00 μF$ , $C2 = 10.0 μF$ , and  $C3 = 2.00 μF$ .
+![ ](https://raw.githubusercontent.com/tim941008/note/main/resource/ch25_2.png)
 
 **Question Translation:**  
-一個 $12.0 μC$ 的點電荷被放置在半徑為 $22.0 cm$ 的球殼中心。
-(a) 求球殼表面的總電通量  
-(b) 求球殼任意半球面的電通  
-(c) 結果是否取決於半徑？  
 
-**Solution:**  
-根據高斯定律，封閉曲面的電通量僅與內部總電荷有關：
- $\Phi = \frac{q}{\varepsilon_0}$
+求等效電容
 
-(a)
- $\Phi = \frac{12.0 \times 10^{-6}}{8.85 \times 10^{-12}}$  
- $\Phi \approx 1.36 \times 10^6 \, \text{N} \cdot \text{m}^2 / \text{C}$  
+**Solution:**    
 
-(b) 半球通量為總通量的一半：
- $\Phi_{\text{hemisphere}} = \frac{1}{2} \Phi \approx 6.78 \times 10^5 \, \text{N} \cdot \text{m}^2 / \text{C}$
-(c) 由於高斯定律，通量與半徑無關。
-
-**Answer:**
-(a) $1.36 \times 10^6$ N·m²/C
-
-(b) $6.78 \times 10^5$ N·m²/C
-
-(c) 不取決於半徑。
+**Answer:**  
+$6.04\mu$F  
 
 ---
 
 ### **Problem 5**
 
-A charge of $170 μC$ is at the center of a cube of edge $80.0 cm$.
-(a) Find the total flux through each face of the cube.
-(b) Find the flux through the whole surface of the cube.
-(c) What If? Would your answers to parts (a) or (b) change if the charge were not at the center? Explain.
+(a) A $3.00μF$ capacitor is connected to a $12.0V$ battery. How much energy is stored in the capacitor? (b) If the capacitor had been connected to a $6.00V$ battery, how much energy would have been stored?  
 
 **Question Translation:**  
-一個 170 μC 的電荷位於邊長 80.0 cm 的立方體中心。
-(a) 求每個面的總電通量  
-(b) 求整個立方體的總電通量  
-(c) 如果電荷不是位於中心，答案會改變嗎？解釋。
+(a) 一個 $3.00 μF$ 的電容器連接到 $12.0 V$ 電池，求電容器儲存的能量。  
+(b) 如果該電容器改接到 $6.00 V$ 電池，儲存的能量會是多少？  
 
 **Solution:**  
-由高斯定律，
- $\Phi_{\text{total}} = \frac{q}{\varepsilon_0}$
-立方體有 6 個面，因此每個面的通量：
- $\Phi_{\text{face}} = \frac{q}{6 \varepsilon_0}$
+$U = \frac{1}{2}CV^2$
 
- $\Phi_{\text{face}} = \frac{170 \times 10^{-6}}{6 \times 8.85 \times 10^{-12}}$
+**Answer:**  
 
- $\Phi_{\text{face}} \approx 3.20 \times 10^6 \, \text{N} \cdot \text{m}^2 / \text{C}$
-**整個立方體的通量**：
- $\Phi_{\text{total}} = 1.92 \times 10^7 \, \text{N} \cdot \text{m}^2 / \text{C}$
-
-
-**Answer:**
- (a) $3.20 \times 10^6$ N·m²/C  
- (b) $1.92 \times 10^7$ N·m²/C  
- (c) 總通量不變，但每個面不同  
+(a) $2.16\times10^{-4}J$  
+(b) $5.40\times 10^{-5}J$  
 
 ---
 
 ### **Problem 6**
 
-The charge per unit length on a long, straight filament is –90.0 μC/m. Find the electric field (a) 10.0 cm, (b) 20.0 cm, and (c) 100 cm from the filament, where distances are measured perpendicular to the length of the filament.
+A parallel-plate capacitor is charged and then disconnected from a battery. By what fraction does the stored energy change (increase or decrease) when the plate separation is doubled?
 
 **Question Translation:**  
-一條長直細線上的線電荷密度為 $-90.0$ μC/m。
-求距離細線 (a) 10.0 cm, (b) 20.0 cm, (c) 100 cm 的電場強度。
-
+當平行板距離加倍求能量變化
 **Solution:**  
-根據高斯定律對無限長直導體：
- $E = \frac{\lambda}{2 \pi \varepsilon_0 r}$
-(a) $E = \frac{-90.0 \times 10^{-6}}{2 \pi \times 8.85 \times 10^{-12} \times 0.10}$
-(b) $E = \frac{-90.0 \times 10^{-6}}{2 \pi \times 8.85 \times 10^{-12} \times 0.2}$
-(c) $E = \frac{-90.0 \times 10^{-6}}{2 \pi \times 8.85 \times 10^{-12} \times 1}$
+
+ $C = \epsilon_{0}\frac{A}{d}$
+ $U = \frac{Q^2}{2C}$  
+ 電容量減小能量變多
+
 **Answer:**
-(a) $1.62 \times 10^7 N/C$  
-(b) $8.09 \times 10^6 N/C$  
-(c) $1.62 \times 10^6 N/C$  
+increase  
+
+---
+
+### **Problem 7**
+
+Determine (a) the capacitance and (b) the maximum potential difference that can be applied to a Teflon-filled parallel-plate capacitor having a plate area of $1.75 cm^2$ and plate separation of  $0.04mm$ .
+
+**Question Translation:**  
+求以下 [Teflon](https://zh.wikipedia.org/zh-tw/%E8%81%9A%E5%9B%9B%E6%B0%9F%E4%B9%99%E7%83%AF) 填充的平行板電容器的相關參數：
+(a) 電容值。
+(b) 可施加的最大電勢差。
+已知該電容器的板面積為 1.75 cm²，板間距為 $0.0400 mm$。
+**Solution:**  
+(a)  
+ $C = \kappa\epsilon_{r}\frac{A}{d} = 2.1\times8.85\times10^{-12}\times\frac{1.75\times10^{-4}}{0.04\times10^{-3}}=8.14pF$  
+(b)
+Teflon最大電場 $6\times10^7V/m$
+**Answer:**
+(a) $8.14pF$  
+(b)$2.4kV$  
 
 ---
