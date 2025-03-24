@@ -23,7 +23,7 @@
 - [Palindrome Number(回文數)](https://hackmd.io/@tsai1008/ryp91j3c1e)  
 - [Reverse Linked List](https://hackmd.io/@tsai1008/206)  
 - [Apply Operations to an Array](https://hackmd.io/@tsai1008/HkRme9giJg)
-- [Container With Most Water](https://hackmd.io/@tsai1008/rJU4N-7hye) 
+- [Container With Most Water](https://hackmd.io/@tsai1008/rJU4N-7hye)  
 - [Longest Common Prefix](https://hackmd.io/@tsai1008/14)  
 
 ## zerojudge👇  
@@ -49,6 +49,7 @@
 - [ch22](https://hackmd.io/@tsai1008/H1O-rchc1g)  
 - [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
 - [ch24](https://hackmd.io/@tsai1008/ch24hw)  
+- [ch25](https://hackmd.io/@tsai1008/ch25hw)  
 
 ## 線性代數🔞
 
