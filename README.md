@@ -10,7 +10,8 @@
 
 - [二分搜尋法](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/r1FGtZh9kg)  
 - [陣列](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/BkJ-g-25yx)
-- [鏈結串列](https://hackmd.io/@tsai1008/Bym_h7kokx)
+- [鏈結串列](https://hackmd.io/@tsai1008/Bym_h7kokx)  
+- [堆疊](https://hackmd.io/@tsai1008/BJrkvfrayg)  
 
 ## Leetcode👇  
 
@@ -54,6 +55,7 @@
 ## 線性代數🔞
 
 - [1.1~1.3](https://hackmd.io/@tsai1008/1_1-1_3)  
+- [1.4~1.6](https://hackmd.io/@tsai1008/1_4_1_6)  
 
 ## Daan(手寫筆記)
 
