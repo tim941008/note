@@ -9,9 +9,10 @@
 ## 資料結構📁  
 
 - [二分搜尋法](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/r1FGtZh9kg)  
-- [陣列](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/BkJ-g-25yx)
+- [陣列](https://hackmd.io/@P8u-iVGpSwSLln7ZYPSdkw/BkJ-g-25yx)  
 - [鏈結串列](https://hackmd.io/@tsai1008/Bym_h7kokx)  
 - [堆疊](https://hackmd.io/@tsai1008/BJrkvfrayg)  
+- [佇列](https://hackmd.io/@tsai1008/queue)  
 
 ## Leetcode👇  
 
