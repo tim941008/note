@@ -147,8 +147,7 @@ Gold is the most [ductile](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%
 
 
 $R = \frac{\rho l}{A} = \frac{2.44\times 10^{-8}\times 2.4\times 10^3}{2.16\times 10^{-11}}=2.71\times 10^6 \Omega$
-**Answer:**
-increase  
+
 
 ---
 
@@ -164,13 +163,52 @@ The rod in below figure is made of two materials. The figure is not drawn to sca
 - 第一段長度為 $25.0 cm$，其電阻率為 $4.00 × 10⁻³ Ω·m$  
 - 第二段長度為 $40.0 cm$，其電阻率為 $6.00 × 10⁻³ Ω·m$  
 
+**Solution:**
+
+$R_{total} = \frac{4 \times 10^{-3}\times 0.25 +6\times10^{-3}\times 0.4 }{9 \times 10^{-6}} = 378 \Omega $ 
+
+---
+
+### **Problem 8**
+
+Use data from Example 26.1 to calculate the collision mean free path of electrons in copper. Assume the average thermal speed of conduction electrons is $8.60 × 10^5 m/s$.
+**Question Translation:**  
+
+使用26.1 的資料，計算 **銅中傳導電子的碰撞平均自由長度**（mean free path）。
+
 **Solution:**  
-(a)  
- $C = \kappa\epsilon_{r}\frac{A}{d} = 2.1\times8.85\times10^{-12}\times\frac{1.75\times10^{-4}}{0.04\times10^{-3}}=8.14pF$  
-(b)
-Teflon最大電場 $6\times10^7V/m$
-**Answer:**
-(a) $8.13\times 10^{-11}F$  
-(b) $2.4kV$  
+
+$\tau = \frac{l_{avg}}{v_{avg}}$
+$l = v_{avg}\tau$
+$\tau = \frac{m_e}{nq^2\rho} = \frac{9.11\times 10^{-31}}{8.49\times10^{28}\times (1.6\times10^{-19})^2\times1.7 \times 10^{-8}} = 2.47\times 10^{-14}s$
+
+$l = 8.6\times 10^5 \times 2.47 \times 10^{-14} = 2.12 \times 10^{-8}$
+
+---
+
+### **Problem 9**
+
+Review problem. An aluminum rod has a resistance of 1.234 Ω at 20.0°C. Calculate the resistance of the rod at 120°C by accounting for the changes in both the resistivity and the dimensions of the rod.
+**Question Translation:**  
+
+求鋁棒在120°C時的電阻
+
+**Solution:**  
+
+$R = R_0(1 + \alpha \Delta T)$
+$1.234(1 +0.0039\times100) = 1.71 \Omega$
+
+---
+
+### **Problem 10**
+
+A 10.0-V battery is connected to a 120-Ω resistor. Ignoring the internal resistance of the battery, calculate the power delivered to the resistor.
+**Question Translation:**  
+
+求消耗能量
+
+**Solution:**  
+
+$P = \frac{V^2}{R} =100 \div 120 = 0.833W$
 
 ---

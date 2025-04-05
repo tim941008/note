@@ -52,6 +52,7 @@
 - [ch23](https://hackmd.io/@tsai1008/SyRSLBmiJe)  
 - [ch24](https://hackmd.io/@tsai1008/ch24hw)  
 - [ch25](https://hackmd.io/@tsai1008/ch25hw)  
+- [ch26](https://hackmd.io/@tsai1008/ch26hw)
 
 ## 線性代數🔞
 
